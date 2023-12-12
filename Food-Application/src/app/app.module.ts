@@ -8,6 +8,7 @@ import { PagesComponent } from './components/pages/pages.component';
 import { StarRatingComponent } from './components/star-rating/star-rating.component';
 import { SearchComponent } from './components/search/search.component';
 import { TagsComponent } from './components/tags/tags.component';
+import { FoodPageComponent } from './components/food-page/food-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TagsComponent } from './components/tags/tags.component';
     PagesComponent,
     StarRatingComponent,
     SearchComponent,
-    TagsComponent
+    TagsComponent,
+    FoodPageComponent
   ],
   imports: [
     BrowserModule,
